@@ -1,0 +1,53 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.search-container {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  width: 400px;
+  height: 44px;
+  justify-content: space-between;
+  margin: 24px auto;
+}
+
+.search-box > input {
+  flex: display;
+  border-style: none;
+  height: 40px;
+  width: 300px;
+  border-radius: 24px 0px 0px 24px;
+}
+
+.search-button > input {
+  flex: display;
+  height: 44px;
+  border-radius: 0px 24px 24px 0px;
+  width: 100px;
+  background: purple;
+  color: pink;
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 350px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 150px;
+  border: 1px solid lightgrey;
+  padding: 24px;
+}
+
+.text-box-footer {
+
+}

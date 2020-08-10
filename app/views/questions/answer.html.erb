@@ -1,0 +1,14 @@
+<h1>Stupid Coaching</h1>
+<div calss="text-container">
+  <div class="text-box">
+    <p><%= params[:question] %></p>
+    <p>-You</p>
+  </div>
+  <div class="text-box">
+    <p><%= @question %></p>
+    <p>-Coach</p>
+  </div>
+  <div class="text-box-footer">
+    <p><%= link_to "ask a new question", "/ask" %> </p>
+  </div>
+</div>
